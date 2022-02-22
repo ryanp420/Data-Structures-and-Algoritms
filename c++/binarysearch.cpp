@@ -14,10 +14,10 @@
 using namespace std;
 
 int binarySearch(vector<int> v, int size, int searchValue);
-// int binarySearch(int array[], int size, int searchValue);
+int binarySearch(int array[], int size, int searchValue);
 
 void display(vector<int> vector);
-// void display(int array[]);
+int displayArray(int *array[]);
 
 void displayBinarySearchResults(vector<int> v);
 // void displayBinarySearchResults(int array[]);
@@ -93,6 +93,17 @@ void display(vector<int> vector)
         cout << i << ", ";
     }
     cout << endl;
+}
+
+int displayArray(int *array[])
+{
+    int sizeArray = sizeof(*array) / sizeof(array[0]);
+    for (int i = 0; i < sizeArray; i++)
+    {
+        cout << i << ", ";
+    }
+    cout << endl;
+    return 0;
 }
 
 // Initiate the Binary Search Algorithm
