@@ -4,12 +4,6 @@ using std::cout;
 using std::endl;
 using std::vector;
 
-class Person
-{
-public:
-    int number;
-};
-
 int main()
 {
     vector<int> test;

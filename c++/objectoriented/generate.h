@@ -1,7 +1,8 @@
-#include <vector>
-
 #ifndef LIST
 #define LIST
+
+#include <vector>
+
 
 class List
 {
