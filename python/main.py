@@ -1,5 +1,4 @@
 
-from random import Random
 import time 
 from datastructures import RecursionMethods
 from datastructures import RandomNumbers
@@ -10,7 +9,7 @@ begin = time.time()
 def main():
     
     #random number list generation 
-    obj2 = RandomNumbers(420,5)
+    obj2 = RandomNumbers(100,10)
     print(obj2.get_list()) 
     time.sleep(2)
 
